@@ -192,6 +192,10 @@ Now copy and paste this code snippet in the conf file, in the https function blo
 ```bash
 include /etc/nginx/sites-enabled/*;
 ```
+Now just restart the nginx service
+```bash
+sudo systemctl reload nginx
+```
 
 ### 7. Put the ip-address of your droplet in your browser and go to it
 
